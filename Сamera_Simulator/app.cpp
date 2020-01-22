@@ -13,6 +13,11 @@ CameraSimulatorApp::CameraSimulatorApp() :
 	displaySize.width = 100;
 }
 
+CameraSimulatorApp::~CameraSimulatorApp()
+{
+	cv::destroyWindow(appName);
+}
+
 void CameraSimulatorApp::start()
 {
 	cameraImage = cv::imread("Canon 700D.jpg");
