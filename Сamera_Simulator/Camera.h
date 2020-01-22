@@ -10,7 +10,7 @@
 
 class camera { 
 public:
-	camera(std::string name);
+	camera();
 	camera(camera& cam);
 	void setLense(LenseInterface& Lense) {}; //поставить объектив
 	void setRawImage(cv::Mat& rawImage) {};

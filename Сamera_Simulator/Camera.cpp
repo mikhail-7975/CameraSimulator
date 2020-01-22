@@ -1,8 +1,8 @@
 #include "Camera.h"
 
-camera::camera(std::string name)
+camera::camera()
 {
-	_name = name;
+	_name = "Canon 700D";
 }
 
 camera::camera(camera& cam)

@@ -6,6 +6,8 @@ public:
 	CameraSimulatorApp();
 	~CameraSimulatorApp();
 
+	void start();
+
 	void setLense(LenseInterface& lense);
 	void setCamera(camera cam);
 
@@ -19,10 +21,17 @@ private:
 
 	static void		OnBlurParamsChanged(int x, void* instance);
 
+	std::string appName;
+
 	camera _cam;
-	cv::Mat _img;
 	cv::Size displaySize;
+
+	cv::Mat _img;
 	cv::Mat cameraImage;
 
+	cv::Mat windowImage;
 	int mouse_posX, mouse_posY;
+
+	int focusDistance;
+	int apperture;
 };
