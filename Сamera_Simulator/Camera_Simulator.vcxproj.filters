@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ImageFacade.h" />
+    <ClInclude Include="Camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LenseInterface.h">
+      <Filter>lense</Filter>
+    </ClInclude>
+    <ClInclude Include="Lenses.h">
+      <Filter>lense</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>app</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Lenses.cpp">
+      <Filter>lense</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="camera">
+      <UniqueIdentifier>{119ab062-acf1-4c1d-ba93-9bd9f4a5df20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lense">
+      <UniqueIdentifier>{1421facf-5f96-4609-9498-74a9b9eeef67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{e85be71e-2d3a-474e-90f5-b7f9c0497c71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
