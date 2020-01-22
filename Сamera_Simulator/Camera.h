@@ -8,7 +8,7 @@
 #include <string>
 #include <memory>
 
-class camera {
+class camera { 
 public:
 	camera(std::string name);
 	camera(camera& cam);
